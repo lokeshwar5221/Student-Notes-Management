@@ -106,8 +106,12 @@ Register - SNS
 
         <a href="{{ url_for('login') }}">
             Login
-        </a>
-
+        </a><br>
+        {% for error in errors %}
+        <span style="color: red;">{{error}}</span>
+        {%endfor%}
+        <span style="color: green;">{{res}}</span>
+        <span style="color: red;">{{err}}</span>
     </p>
 
 </div>

@@ -2,3 +2,4 @@ Flask
 mysql-connector-python 
 flask-bcrypt
 python-dotenv
+bcrypt
